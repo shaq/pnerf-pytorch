@@ -16,7 +16,7 @@ import torch.nn.functional as F
 # Constants
 NUM_DIMENSIONS = 3
 NUM_DIHEDRALS = 3
-BOND_LENGTHS = np.array([145.801, 152.326, 132.868], dtype=np.float32)
+BOND_LENGTHS = np.array([145.801/100, 152.326/100, 132.868/100], dtype=np.float32)
 BOND_ANGLES = np.array([2.124, 1.941, 2.028], dtype=np.float32)
 
 
